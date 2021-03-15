@@ -1,0 +1,151 @@
+body{
+    font-family:Arial, Helvetica
+}
+discount{
+    color: green;
+    
+}
+gst{
+    font-weight: none;
+    font-size: 0.7em;
+  }
+
+price{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.i-deatil{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.follow{
+    
+    text-align: center;
+    padding: 10px;
+}
+.box{
+    margin: 10px;
+    color: black;
+}
+.size-box{
+    color: black;
+    padding: 10px;
+    background-color: #cdcec9;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.size-box:hover{
+    border: 0.5px solid black;
+}
+
+.ml12 {
+    padding-left: 20px;
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .blue-box{
+      color:blue;
+      background-color: blue;
+      padding: 8px;
+  }
+  .red-box{
+    color:red;
+    background-color:red;
+    padding: 8px;
+}
+.green-box{
+    color:green;
+    background-color: green;
+    padding: 8px;
+}
+
+.i-heading
+{
+    text-align: center;
+    padding: 30px;
+}
+
+.trash{
+    float: right;
+    margin-right:10%;
+}
+.trash:hover{
+    color:red;
+}
+.btn1{
+    border-radius: 0px;
+    background-color: black; 
+    color: white;
+}
+.btn1:hover{
+    background-color: orangered; 
+}
+
+.login-box {
+    position: relative  ;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6); 
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color:black;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+    ￼
+    
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color:black;
+    font-size: 12px;
+  }
+  .hov:hover{
+    opacity: 0.6;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
